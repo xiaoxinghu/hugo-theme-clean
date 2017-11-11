@@ -17,6 +17,7 @@ export default prpos => {
         <meta name="author" content={ t(".") } />
       </With>
       <link rel="stylesheet" href={ t( ".Site.BaseURL" ) + "css/style.css" } />
+      <link rel="stylesheet" href={ t( ".Site.BaseURL" ) + "css/typography.css" } />
       <If cond=".RSSLink">
         <link href={ t( ".RSSLink" ) } rel="feed" type="application/rss+xml" title={ t( ".Site.Title" ) } />
       </If>

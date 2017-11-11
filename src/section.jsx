@@ -4,21 +4,17 @@ import { t, partial, Define, Range } from './hugo.jsx'
 
 export default props => {
 
-    return (
-      <Define name="main">
-        <main>
-          { t(".Content") }
-          <ul class="contents">
-            <Range array=".Paginator.Pages">
-              <li>
-                <div>
-                  { partial( "summary.html" ) }
-                </div>
-              </li>
-            </Range>
-          </ul>
-          { partial( "pagination.html" ) }
-        </main>
-      </Define>
-    )
+  return (
+    <Define name="main">
+      <main>
+        { t(".Content") }
+        <Range array=".Paginator.Pages">
+          <div>
+            { partial( "summary.html" ) }
+          </div>
+        </Range>
+        { partial( "pagination.html" ) }
+      </main>
+    </Define>
+  )
 }

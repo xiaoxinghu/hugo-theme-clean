@@ -83,3 +83,12 @@
 .copyright {
   padding: 1.5rem 1.5rem;
 }
+
+.tag {
+  margin-left: 5px;
+  padding: 3px;
+  background-color: gray;
+  border-radius: 5px;
+  // border: 2px solid lighten( $base-color, 80% );
+  color: white !important;
+}

@@ -23,6 +23,9 @@ a:visited {
 a:hover {
   text-decoration: none;
   color: #00bfe9; }
+
+.muted {
+  color: #b3b3b3; }
 ._3pxL_FKV8KpLnh3iOgvIWB, ._17KYbYOjSBGUGjl61nPxmE {
   max-width: 740px;
   margin: 0 auto !important;
@@ -93,3 +96,10 @@ a:hover {
 
 ._1ogHAoD7PRX0bUTGSALSJH {
   padding: 1.5rem 1.5rem; }
+
+.A_BzC3Ib5r_OzCvWuMWlY {
+  margin-left: 5px;
+  padding: 3px;
+  background-color: gray;
+  border-radius: 5px;
+  color: white !important; }

@@ -1,6 +1,6 @@
 const path = require('path')
 const ExtractTextPlugin = require("extract-text-webpack-plugin")
-const typography = new ExtractTextPlugin("typography.css")
+const typography = new ExtractTextPlugin("static/css/typography.css")
 const style = new ExtractTextPlugin("static/css/style.css")
 const StaticSiteGeneratorPlugin = require('static-site-generator-webpack-plugin')
 

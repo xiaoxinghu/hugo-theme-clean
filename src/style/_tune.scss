@@ -1,0 +1,4 @@
+$base-color: #000;
+.muted {
+  color: lighten( $base-color, 70% );
+}
