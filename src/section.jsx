@@ -2,9 +2,8 @@ import React from 'react'
 import styles from './_styles.module.scss'
 import { t, partial, Define, Range } from './hugo.jsx'
 
-export default class Section extends React.Component {
+export default props => {
 
-  render() {
     return (
       <Define name="main">
         <main>
@@ -22,5 +21,4 @@ export default class Section extends React.Component {
         </main>
       </Define>
     )
-  }
 }
