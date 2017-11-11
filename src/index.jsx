@@ -5,6 +5,8 @@ import './style/global.scss'
  * import Postamble from './postamble.jsx'*/
 import Base from './base.jsx'
 import Section from './section.jsx'
+import Single from './single.jsx'
+import List from './list.jsx'
 import React from 'react'
 import ReactDOMServer from 'react-dom/server'
 
@@ -16,6 +18,8 @@ function render(locals) {
   return {
     '/layouts/_default/baseof.html': renderHugoTemplate(<Base />),
     '/layouts/_default/section.html': renderHugoTemplate(<Section />),
+    '/layouts/_default/single.html': renderHugoTemplate(<Single />),
+    '/layouts/_default/list.html': renderHugoTemplate(<List />),
   }
 }
 
