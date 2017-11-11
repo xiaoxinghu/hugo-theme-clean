@@ -1,0 +1,27 @@
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
+a {
+  @include transition(color .2s ease-in-out);
+  /* @include transition(background-color .2s ease-in-out); */
+}
+
+a:link {
+  outline: 0;
+  color: #0095b6;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #0689a6;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #00bfe9;
+}

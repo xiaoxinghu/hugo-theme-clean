@@ -1,0 +1,95 @@
+body {
+  max-width: 740px;
+  margin: 0 auto !important;
+  float: none !important;
+  padding: 2rem 1.5rem; }
+
+a {
+  -webkit-transition: color 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+  /* @include transition(background-color .2s ease-in-out); */ }
+
+a:link {
+  outline: 0;
+  color: #0095b6;
+  text-decoration: none; }
+
+a:visited {
+  color: #0689a6; }
+
+a:hover {
+  text-decoration: none;
+  color: #00bfe9; }
+._3pxL_FKV8KpLnh3iOgvIWB, ._17KYbYOjSBGUGjl61nPxmE {
+  max-width: 740px;
+  margin: 0 auto !important;
+  float: none !important; }
+  @media print {
+    ._3pxL_FKV8KpLnh3iOgvIWB, ._17KYbYOjSBGUGjl61nPxmE {
+      display: none !important; } }
+
+._3pxL_FKV8KpLnh3iOgvIWB {
+  padding: 0.5rem 1.5rem; }
+
+._17KYbYOjSBGUGjl61nPxmE {
+  padding: 5.0rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.Yf8NGi0ISh3Twx1WzW2fK {
+  display: flex;
+  flex-direction: row; }
+  .Yf8NGi0ISh3Twx1WzW2fK a {
+    float: right;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 1.5rem 0.5rem; }
+
+._87Vd2nlempLV_OQfSu8mT {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+._2paI0bQn0NfeCsqMF8QZ7h {
+  /* float: left; */
+  /* display: block; */
+  /* text-align: center; */
+  text-decoration: none;
+  padding: .5rem 1rem; }
+
+._3THH7aNp2AhjMAbdQtZPWT {
+  display: flex;
+  align-items: center;
+  align-content: space-around;
+  margin: 3em 1em 3em 1em; }
+
+._29-Jp6WXgvN1Wxupr6R90h {
+  width: 50px;
+  margin: 0 1em 0 0; }
+
+._3r1Hc0L6hYr8ekjmCpfoLn {
+  font-size: 2em;
+  font-weight: 800; }
+
+._3IkNhgZ7WLBsEGyZSpx1Dt {
+  float: right;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: .5rem 1.5rem; }
+
+._3IkNhgZ7WLBsEGyZSpx1Dt:hover {
+  background-color: #f1f1f1;
+  text-decoration: none; }
+
+.xrykPsuufiT3HIh26wS8T {
+  height: 0.5rem; }
+
+._1ogHAoD7PRX0bUTGSALSJH {
+  padding: 1.5rem 1.5rem; }
