@@ -4,6 +4,7 @@ import { t, partial, Block } from './hugo.jsx'
 import Head from './head.jsx'
 import Banner from './banner.jsx'
 import Nav from './nav.jsx'
+import Footer from './footer.jsx'
 
 export default class Base extends React.Component {
 
@@ -19,7 +20,7 @@ export default class Base extends React.Component {
           <Block name="main" />
           { partial("sidebar.html") }
         </body>
-          { partial("footer.html") }
+        <Footer />
       </html>
     )
   }
