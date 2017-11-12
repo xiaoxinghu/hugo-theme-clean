@@ -26,6 +26,126 @@ a:hover {
 
 .muted {
   color: #b3b3b3; }
+
+.highlight {
+  position: relative; }
+  .highlight pre code[data-lang="c"]::before {
+    content: "c";
+    display: inline;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    padding: 4px;
+    color: #f8f8f2;
+    font-size: 0.8em;
+    letter-spacing: 0 !important;
+    background: rgba(248, 248, 242, 0.3);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px; }
+  .highlight pre code[data-lang="swift"]::before {
+    content: "swift";
+    display: inline;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    padding: 4px;
+    color: #f8f8f2;
+    font-size: 0.8em;
+    letter-spacing: 0 !important;
+    background: rgba(248, 248, 242, 0.3);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px; }
+  .highlight pre code[data-lang="java"]::before {
+    content: "java";
+    display: inline;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    padding: 4px;
+    color: #f8f8f2;
+    font-size: 0.8em;
+    letter-spacing: 0 !important;
+    background: rgba(248, 248, 242, 0.3);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px; }
+  .highlight pre code[data-lang="Chinese"]::before {
+    content: "Chinese";
+    display: inline;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    padding: 4px;
+    color: #f8f8f2;
+    font-size: 0.8em;
+    letter-spacing: 0 !important;
+    background: rgba(248, 248, 242, 0.3);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px; }
+  .highlight pre code[data-lang="English"]::before {
+    content: "English";
+    display: inline;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    padding: 4px;
+    color: #f8f8f2;
+    font-size: 0.8em;
+    letter-spacing: 0 !important;
+    background: rgba(248, 248, 242, 0.3);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px; }
+  .highlight pre code[data-lang="ruby"]::before {
+    content: "ruby";
+    display: inline;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    padding: 4px;
+    color: #f8f8f2;
+    font-size: 0.8em;
+    letter-spacing: 0 !important;
+    background: rgba(248, 248, 242, 0.3);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px; }
+  .highlight pre code[data-lang="python"]::before {
+    content: "python";
+    display: inline;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    padding: 4px;
+    color: #f8f8f2;
+    font-size: 0.8em;
+    letter-spacing: 0 !important;
+    background: rgba(248, 248, 242, 0.3);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px; }
+  .highlight pre code[data-lang="sh"]::before {
+    content: "sh";
+    display: inline;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    padding: 4px;
+    color: #f8f8f2;
+    font-size: 0.8em;
+    letter-spacing: 0 !important;
+    background: rgba(248, 248, 242, 0.3);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px; }
+  .highlight pre code[data-lang="emacs-lisp"]::before {
+    content: "emacs-lisp";
+    display: inline;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    padding: 4px;
+    color: #f8f8f2;
+    font-size: 0.8em;
+    letter-spacing: 0 !important;
+    background: rgba(248, 248, 242, 0.3);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px; }
 ._3pxL_FKV8KpLnh3iOgvIWB, ._17KYbYOjSBGUGjl61nPxmE {
   max-width: 740px;
   margin: 0 auto !important;
