@@ -1,0 +1,1 @@
+{{ define "main" }}<main><h2>{{ .Data.Term }}</h2>{{ range .Paginator.Pages }}<div>{{ partial "summary.html" . }}</div>{{ end }}{{ partial "pagination.html" . }}</main>{{ end }}

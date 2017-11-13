@@ -6,13 +6,13 @@ export default props => {
   return (
     <Define name="main">
       <main>
-        { t(".Content") }
-        <Range array=".Paginator.Pages">
+        <h2>{ t('.Data.Term') }</h2>
+        <Range array='.Paginator.Pages'>
           <div>
-            { partial( "summary.html" ) }
+            { partial( 'summary.html' ) }
           </div>
         </Range>
-        { partial( "pagination.html" ) }
+        { partial( 'pagination.html' ) }
       </main>
     </Define>
   )

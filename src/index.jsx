@@ -6,6 +6,7 @@ import Section from './section'
 import Single from './single'
 import List from './list'
 import Summary from './summary'
+import { Taxonomy, Terms } from './taxonomy'
 import React from 'react'
 import ReactDOMServer from 'react-dom/server'
 
@@ -19,6 +20,8 @@ function render(locals) {
     '/layouts/_default/section.html': renderHugoTemplate(<Section />),
     '/layouts/_default/single.html': renderHugoTemplate(<Single />),
     '/layouts/_default/list.html': renderHugoTemplate(<List />),
+    '/layouts/_default/taxonomy.html': renderHugoTemplate(<Taxonomy />),
+    '/layouts/_default/terms.html': renderHugoTemplate(<Terms />),
     '/layouts/partials/summary.html': renderHugoTemplate(<Summary />),
   }
 }
