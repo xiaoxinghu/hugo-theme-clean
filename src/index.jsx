@@ -1,11 +1,11 @@
 import './style/global.scss'
 /* import typography from 'css-loader!typography-loader!babel-loader!./typography.js'*/
 import './typography.js'
-import Base from './base.jsx'
-import Section from './section.jsx'
-import Single from './single.jsx'
-import List from './list.jsx'
-import Summary from './summary.jsx'
+import Main from './main'
+import Section from './section'
+import Single from './single'
+import List from './list'
+import Summary from './summary'
 import React from 'react'
 import ReactDOMServer from 'react-dom/server'
 
@@ -15,7 +15,7 @@ const renderHugoTemplate = element => {
 
 function render(locals) {
   return {
-    '/layouts/_default/baseof.html': renderHugoTemplate(<Base />),
+    '/layouts/_default/baseof.html': renderHugoTemplate(<Main />),
     '/layouts/_default/section.html': renderHugoTemplate(<Section />),
     '/layouts/_default/single.html': renderHugoTemplate(<Single />),
     '/layouts/_default/list.html': renderHugoTemplate(<List />),

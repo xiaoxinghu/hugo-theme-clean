@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  align-items: center;
+  align-content: space-around;
+  margin: 3em 1em 3em 1em;
+}
+
+.logo {
+  width: 50px;
+  margin: 0 1em 0 0;
+}
+
+.text {
+  font-size: 2em;
+  font-weight: 800;
+}

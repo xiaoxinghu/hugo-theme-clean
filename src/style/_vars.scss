@@ -1,0 +1,15 @@
+$major-background: #FFF;
+// this is mainly for footer background,
+// try to keep it in sync with code black background color.
+$minor-background: #282B36;
+$content-width: 740px;
+
+@mixin centered-content() {
+  max-width: $content-width;
+  margin: 0 auto !important;
+  padding: 2rem 1.5rem;
+}
+
+$primary: hsla(0,0%,0%,0.8);
+$primary-invert: invert($primary);
+$muted: lighten( $primary, 70% );

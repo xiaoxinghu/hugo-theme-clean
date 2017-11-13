@@ -1,11 +1,15 @@
 :global {
 
+  @import "vars";
+
   body {
-    max-width: 740px;
     margin: 0 auto !important;
     float: none !important;
-    padding: 2rem 1.5rem;
+    color: $primary;
+  }
 
+  main {
+    @include centered-content();
   }
 
   @import "link";

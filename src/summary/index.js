@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './_styles.module.scss'
-import { t, Range, If } from './hugo.jsx'
+import { t, Range, If } from '../hugo.jsx'
 
 export default props => {
   return (

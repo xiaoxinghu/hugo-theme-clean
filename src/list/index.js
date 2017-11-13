@@ -1,6 +1,5 @@
 import React from 'react'
-import styles from './_styles.module.scss'
-import { t, partial, Define, Range } from './hugo.jsx'
+import { t, partial, Define, Range } from '../hugo.jsx'
 
 export default props => {
 
@@ -8,7 +7,7 @@ export default props => {
       <Define name="main">
         <main>
           { t(".Content") }
-          <ul class="contents">
+          <ul className="contents">
             <Range array=".Paginator.Pages">
               <li>
                 <div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './_styles.module.scss'
-import { t } from './hugo.jsx'
+import { t } from '../hugo.jsx'
 
 export default props => {
 
@@ -12,9 +12,9 @@ export default props => {
         <input type="hidden" value="1" name="kn"></input>
         <input type="hidden" value="1" name="kac"></input>
         <input type="search" placeholder="Search" name="q"></input>
-        <button class="button" type="submit">GO</button>
+        <button className="button" type="submit">GO</button>
       </form>
-      <div className={styles.footer_contact}>
+      <div className={styles.contact}>
         <a href="mailto:dawnstar.hu@gmail.com">
           <i className="fa fa-envelope-o"/>
         </a>

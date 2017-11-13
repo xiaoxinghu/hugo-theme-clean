@@ -1,0 +1,11 @@
+@import '../style/_vars.scss';
+
+.tag {
+  margin-left: 5px;
+  padding: 3px;
+  background-color: gray;
+  border-radius: 5px;
+  // border: 2px solid lighten( $base-color, 80% );
+  color: $primary-invert !important;
+  font-size: 0.8em;
+}

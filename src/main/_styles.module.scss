@@ -1,0 +1,21 @@
+@import '../style/_vars.scss';
+
+.header,.footer {
+  @media print {
+    display: none !important;
+  }
+  margin: 0 auto !important;
+  float: none !important;
+}
+
+.header {
+  padding: 0.5rem 1.5rem;
+}
+
+.footer {
+  background: $minor-background;
+}
+
+.header_content,.footer_content {
+  @include centered-content();
+}

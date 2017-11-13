@@ -1,5 +1,5 @@
 import React from 'react'
-import { t, With, If } from './hugo.jsx'
+import { t, With, If } from '../hugo.jsx'
 
 
 export default prpos => {
@@ -16,8 +16,8 @@ export default prpos => {
       <With param=".Site.Params.author">
         <meta name="author" content={ t(".") } />
       </With>
-      <link rel="stylesheet" href={ t( ".Site.BaseURL" ) + "css/style.css" } />
       <link rel="stylesheet" href={ t( ".Site.BaseURL" ) + "css/typography.css" } />
+      <link rel="stylesheet" href={ t( ".Site.BaseURL" ) + "css/style.css" } />
       <If cond=".RSSLink">
         <link href={ t( ".RSSLink" ) } rel="feed" type="application/rss+xml" title={ t( ".Site.Title" ) } />
       </If>
