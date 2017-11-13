@@ -1,0 +1,7 @@
+export CV from './cv'
+export Main from './main'
+export Section from './section'
+export Single from './single'
+export List from './list'
+export Summary from './summary'
+export { Taxonomy, Terms } from './taxonomy'

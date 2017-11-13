@@ -1,0 +1,55 @@
+@import '../../style/_vars.scss';
+
+.subtitle {
+  color: $muted;
+  font-size: 0.8rem;
+}
+
+.contact_card {
+  display: flex;
+  justify-content: space-around;
+}
+
+.avatar {
+  border-radius: 2em;
+}
+
+.flabel {
+  color: gray;
+  font-size: 0.6rem;
+  line-height: 0.1rem;
+}
+
+.cv {
+  h2 {
+    color: gray;
+    font-size: 1em;
+  }
+  h3 {
+    font-weight: lighter;
+  }
+}
+
+:global {
+  .META {
+    color: gray;
+    font-size: 0.6rem;
+    line-height: 0.1rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .skills ul li {
+    background-color: rgb(228, 227, 227);
+    padding: 0.3em;
+    margin: 0.2em;
+    border-radius: 0.5em;
+    color: #312b1d;
+    font-weight: 300;
+  }
+
+  .skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+  }
+}
